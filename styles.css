@@ -1,8 +1,27 @@
-li a {
-    
-    padding-bottom: 30px;
+body {
+    display: flex;
+    flex-direction: column;
 }
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    border: 2px solid #deb887;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+    border: 2px solid #deb887;
+
+}
+aside {
+flex: 1;
+overflow-x: auto;
+}
+header, footer {
+    flex: none;
+    background-color: #deb887;
+    color: #000;
+    padding: 10px;
+    text-align: center;
 }
