@@ -25,3 +25,8 @@ header, footer {
     padding: 10px;
     text-align: center;
 }
+.logo {
+    position: fixed;
+    left: 0;
+    top: 20px;
+}
